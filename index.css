@@ -82,6 +82,75 @@ h2 {
     margin-left: 100px; /* Adds spacing from the text */
 }
 
+/* Skills Section */
+.skills-section {
+  background-color: #1e1e1e; /* Dark background for contrast */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-family: verdana, sans-serif;
+  font-size: 36px;
+  color: #f2f2f2; /* Light color for the heading */
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-card {
+  background-color: #292929;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.skill-card h3 {
+  font-family: verdana, sans-serif;
+  font-size: 24px;
+  color: #f2f2f2;
+  margin-bottom: 15px;
+}
+
+.skill-card ul {
+  padding-left: 20px;
+}
+
+.skill-card li {
+  font-family: verdana, sans-serif;
+  font-size: 16px;
+  color: #bbb;
+  margin-bottom: 8px;
+}
+
+.skill-card li:last-child {
+  margin-bottom: 0;
+}
+
+.skill-card ul li a {
+  color: #1a73e8;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.skill-card ul li a:hover {
+  color: #ff4da6; /* Accent color for hover */
+}
+
+
 
 footer {
     background-color: #121212; /* Dark background */
