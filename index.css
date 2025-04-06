@@ -267,7 +267,7 @@ footer::before {
     cursor: pointer;       /* Makes it clear the button is clickable */
     border: none;           /* Optional: Removes border around button */
     background-color: #4CAF50; /* Optional: Green background */
-    color: white;           /* Optional: White text */
+    color: #f2f2f2;           /* Optional: White text */
     border-radius: 5px;     /* Optional: Rounds the corners */
 }
 
