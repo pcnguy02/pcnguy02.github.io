@@ -255,5 +255,26 @@ footer::before {
   color: #ff4da6; /* Highlight on hover */
 }
 
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    gap: 10px;              /* Optional: Adds space between the buttons */
+}
+
+.GFG {
+    padding: 10px 20px;     /* Optional: Adds padding inside the buttons */
+    font-size: 16px;        /* Optional: Adjusts font size */
+    cursor: pointer;       /* Makes it clear the button is clickable */
+    border: none;           /* Optional: Removes border around button */
+    background-color: #4CAF50; /* Optional: Green background */
+    color: white;           /* Optional: White text */
+    border-radius: 5px;     /* Optional: Rounds the corners */
+}
+
+.GFG:hover {
+    background-color: #45a049; /* Optional: Changes background on hover */
+}
+
+
 
 
